@@ -6,7 +6,7 @@ title: "GamePlan - Visual Project Planning and Scheduling"
 description: "30 day free trial. Plan projects visually. Gantt charts created automatically! Visual = easy to learn &amp; use. Keep projects on time and budget with GamePlan!"        # A short description in default language
 
 url: ""                # The full URL to your site. 
-                       
+baseurl: /gameplan-website                       
   
 twitter:
   username: gameplan2015   # site-wide Twitter handle
