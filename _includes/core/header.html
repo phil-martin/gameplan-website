@@ -1,0 +1,34 @@
+
+<div class="header wrapper-fluid wrapper-navbar bg-blue" id="wrapper-navbar">
+        <div class="container">
+    <a class="skip-link screen-reader-text sr-only" href="#content">Skip to content</a>
+    <nav class="navbar navbar-toggleable-md  navbar-light">
+
+            <button class="navbar-toggler collapsed navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa u-fs-30 text-white fa-bars" aria-hidden="true"></i>
+            </button>
+            <a class="navbar-brand mr-auto" rel="home" href="/" title="GamePlan"><img src="{{ '/assets/images/gp_logo_200.png' | absolute_url}}" alt="GamePlan logo" class="img-fluid"></a>
+            <div id="navbarNavDropdown" class="navbar-collapse collapse" aria-expanded="false"
+                style="">
+                <ul id="main-menu" class="navbar-nav ml-auto">
+                        {% for link in site.data.nav.main_nav %}
+                        {% if link.is_button %}
+                        <li class="nav-item">
+                        <a href="{{ link.url }}" title="{{ link.title }}" class="nav-link btn btn btn-rounded btn-white ml-3 px-md-3 u-fs-20 mb-3">
+                                {{ link.title }}
+                            </a>
+                        </li>
+                        {% else %}
+                        <li class="nav-item {% if page.url==link.url %}active{% endif%}">
+                                <a title="{{ link.title }}" href="{{ link.url }}" class="u-fs-20 nav-link text-white">{{ link.title }} {% if page.url==link.url %}<span class="sr-only">(current)</span>{% endif%}</a>
+                        </li>
+                        {% endif %}
+                        {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+
+  

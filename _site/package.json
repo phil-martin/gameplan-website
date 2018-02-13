@@ -1,0 +1,14 @@
+{
+  "name": "gameplan-global",
+  "version": "1.0.0",
+  "description": "Gameplan.global site",
+  "main": "index.js",
+  "repository": "https://notatamas@bitbucket.org/notatamas/gameplan.git",
+  "author": "Tomas Antal <tomas.antal@wtsn.eu>",
+  "license": "MIT",
+  "dependencies": {
+    "@fancyapps/fancybox": "^3.2.0",
+    "bootstrap": "4.0.0-alpha.6",
+    "font-awesome": "^4.7.0"
+  }
+}

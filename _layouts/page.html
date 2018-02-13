@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+
+{% if page.type == "document" %}
+
+<div class="bg-gray-v1">
+                <div class="container u-py-100">
+                        <div class="bg-white u-py-35 u-px-35">
+                        <div class="col-12">
+                                <h2 class="h1 text-center">{% if page.subtitle %} {{ page.subtitle }} {% else %} {{ page.title }} {% endif %}</h2>
+                                <div class="u-h-4 u-w-50 bg-blue rounded mt-4 u-mb-20 mx-auto"></div>
+                        </div>
+                        {{content}}
+                </div>
+                </div>
+        </div>
+
+{% else %}
+
+
+<div class="bg-gray-v1">
+        <div class="container u-py-100">
+                <div class="col-12">
+                        <h2 class="h1 text-center">{% if page.subtitle %} {{ page.subtitle }} {% else %} {{ page.title }} {% endif %}</h2>
+                        <div class="u-h-4 u-w-50 bg-blue rounded mt-4 u-mb-20 mx-auto"></div>
+                </div>
+                {{content}}
+        </div>
+</div>
+
+{% endif %}

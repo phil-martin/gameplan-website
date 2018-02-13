@@ -1,0 +1,20 @@
+testimonials:
+  - name:  S.M. Boyce
+    image: /assets/images/sm_boyce.png
+    position: Author, S.M. Boyce
+    text: GamePlan is a lifesaver. It’s exactly what I needed, both for personal projects AND for business. The collaboration tools, Gantt chart, and personnel features are exactly what I’ve been scouring the web, looking for. No one does it like GamePlan, and I’m so grateful I found them! It’s my secret weapon.
+    additional_text: 
+    additional_url:
+  - name:  Michael Berman
+    image: /assets/images/m_berman.jpg
+    position: Project Manager, Anafim.biz - Design and Construction
+    text: Why are you not famous? I don’t understand why you are not all over the web!! This is the best scheduling program by far – incredible! This is what Gantt should look like in every program!!
+    additional_text: Read my blog post 'Order or Chaos' detailing the 6 project management tools we tested.
+    additional_url: https://idragonb.com/2016/07/17/project-management/
+  - name:  Lloyd Damp
+    image: /assets/images/l_damp.jpg
+    position: Aerospace Engineer
+    text: Using GamePlan our team can quickly construct all the expected tasks, milestones and major meetings we foresee and use them to estimate the required resources and projected Project completion date. The use of GamePlan has greatly reduced our project planning timelines and is allowing us to focus more on our core business.
+    additional_text: 
+    additional_url:
+

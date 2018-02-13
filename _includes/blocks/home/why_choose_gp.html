@@ -1,0 +1,42 @@
+{% assign title = include.title | default: "Why choose GamePlan?" %}
+{% assign reasons = site.data.why_choose_gp.reasons  %}
+{% assign reasons_size = reasons | size %}
+
+{% if reasons_size == 3 or reasons_size == 6 %}
+{% assign col_num = "col-md-6 col-lg-4" %}
+{% else %}
+{% assign col_num = "col-md-6 col-lg-3" %}
+{% endif %}
+
+
+
+<section>
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-lg-12 mx-auto">
+        <h2 class="h1 text-center">
+          {{ title }}
+        </h2>
+        <div class="u-h-4 u-w-50 bg-primary rounded mt-4 u-mb-70 mx-auto"></div>
+      </div>
+      
+      {% for reason in reasons %}
+      <div class="{{ col_num }}">
+        <div class="bg-white u-py-50 u-h-100p rounded border box-shadow-v2--onHover px-2">
+          <i class="fa fa-{{ reason.icon }} u-fs-40 circle-icon {{ reason.color }} text-white"></i>
+          <h4 class="u-fs-28 u-my-35 ">
+            {{ reason.title }}
+          </h4>
+          <p class="mb-0 u-fs-22">
+            {{ reason.text }}
+          </p>
+        </div>
+      </div>
+      {% endfor %}
+
+     </div>
+    <!-- END row-->
+
+  </div>
+  <!-- END container-->
+</section>

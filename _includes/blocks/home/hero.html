@@ -1,0 +1,34 @@
+{% assign title = include.title | default: " Visual Project Planning and Scheduling Software" %}
+{% assign subtitle = include.subtitle | default: "Communicate and collaborate effectively with plan visualization. Plan your projects, track progress, and complete your projects on time." %}
+{% assign button_1_title = include.button_1_title | default: "Sign Up" %}
+{% assign button_1_url = include.button_1_url | default: "/go/sign-up" %}
+{% assign button_2_title = include.button_2_title | default: "Free Trial" %}
+{% assign button_2_url = include.button_2_url | default: "/go/sign-up" %}
+{% assign image = include.image | default: "/assets/images/how_gp_helps.png" %}
+{% assign image_alt = include.image_alt | default: "Hero image" %}
+
+
+<section class="u-py-100 u-flex-center bg-blue">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <h1 class="display-4 u-fw-600 text-white u-mb-40">
+                {{ title }}
+              </h1>
+              <p class="u-fs-22 text-white u-lh-1_8 u-mb-40">
+                    {{ subtitle }}
+              </p>
+              <a href="{{ button_1_url }}" class="btn btn btn-rounded btn-white  px-md-5 mb-3">
+                  {{ button_1_title }}
+              </a>
+              <a href="{{ button_2_url }}" class="btn btn btn-rounded btn-white ml-3 px-md-5 mb-3">
+                   {{ button_2_title }}
+              </a>
+            </div> <!-- END col-lg-6-->
+            <div class="col-lg-6 text-center">
+                <img src="{{ image | absolute_url}}" alt="{{ image_alt }}">
+                  </div> <!-- END col-lg-6-->
+          </div> <!-- END row-->
+        </div> <!-- END container-->
+      </section> <!-- END intro-hero-->
+      

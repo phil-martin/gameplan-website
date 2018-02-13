@@ -1,0 +1,54 @@
+#######################################################
+#               SEO RELATED VARIABLES
+#######################################################
+title: "GamePlan - Visual Project Planning and Scheduling"              
+
+description: "30 day free trial. Plan projects visually. Gantt charts created automatically! Visual = easy to learn &amp; use. Keep projects on time and budget with GamePlan!"        # A short description in default language
+
+url: ""                # The full URL to your site. 
+                       
+  
+twitter:
+  username: gameplan2015   # site-wide Twitter handle
+
+logo: '/assets/images/gameplan_logo.png'                 
+
+social:
+  name: GamePlan
+  links:
+    - https://www.facebook.com/gameplan2015/
+    - https://twitter.com/gameplan2015
+    - https://www.youtube.com/channel/UCODk0c1AkMOoz68Di3VGEqg
+    - https://www.linkedin.com/company/gameplan-global-solutions-inc-
+
+lang: en_US
+
+######################################################
+include: ["_pages"]
+
+
+# sass style can be nested (default), compact, compressed, or expanded.
+sass:
+    load_paths:
+        - _sass
+        - node_modules
+    style: compressed
+
+plugins:
+  - jekyll-toc
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+
+permalink: /:categories/:title
+
+exclude:
+  - vendor
+  - deploy.sh
+  - node_modules
+  - Makefile
+  - Gemfile
+  - Gemfile.lock
+  - yarn.lock
+  - packages.json

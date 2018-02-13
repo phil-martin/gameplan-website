@@ -1,0 +1,22 @@
+{% assign image_url = include.image_url | default: "/assets/images/video-bg.jpg" %}
+{% assign title = include.title | default: "Learn about GamePlan in this 52 second video" %}
+{% assign video_url = include.video_url | default: "https://youtu.be/n5eS7ytCrU0" %}
+
+
+<section class="u-py-50" style="background:url({{ image_url | absolute_url}}) no-repeat; background-size: cover; background-position: center center;">
+    <div class="overlay bg-black-opacity-0_4"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="h1 text-white mx-md-5">
+                    {{ title }}
+                </h2>
+                <p>
+                    <a data-fancybox href="{{ video_url }}" class="text-white">
+                        <i class="fa fa-play-circle u-fs-60 pt-5 text-white"></i>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>

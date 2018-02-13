@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en' }}">
+    <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="{{'/assets/main.css' | absolute_url}}">
+	<link rel="stylesheet" href="{{'/assets/vendor/font-awesome.min.css' | absolute_url}}">
+	<link rel="stylesheet" href="{{'/assets/vendor/jquery.fancybox.min.css' | absolute_url}}">
+	<link href="https://fonts.googleapis.com/css?family=Dosis:300,400,500" rel="stylesheet">
+	<link rel="shortcut icon" href="{{'/assets/images/gameplan-logo-image-16x16.png' | absolute_url}}" type="image/x-icon" />
+	{% seo %}
+    </head>
+    <body>
+	
+	{% include core/header.html %}
+	{{content}}
+	{% include core/footer.html %}
+
+	<script src="{{'/assets/vendor/jquery.min.js' | absolute_url}}"></script>
+	<script src="{{'/assets/vendor/tether.min.js' | absolute_url}}"></script>
+	<script src="{{'/assets/vendor/bootstrap.min.js' | absolute_url}}"></script>
+	<script src="{{'/assets/vendor/jquery.fancybox.min.js' | absolute_url}}"></script>
+    </body>
+</html>

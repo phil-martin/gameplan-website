@@ -1,0 +1,17 @@
+reasons:
+  - title: Communicate
+    text: Communicate and collaborate effectively with plan visualization.
+    icon: comment
+    color: bg-gp-blue
+  - title: Make decisions
+    text: Check project status from anywhere at anytime, and make informed decisions.
+    icon: calendar
+    color: bg-gp-yellow
+  - title: Report timelines
+    text: Report realistic timelines and take action early to avoid project delays.
+    icon: copy
+    color: bg-gp-green 
+  - title: Complete your project
+    text: Plan your projects, track progress, and complete your projects on time.
+    icon: tasks
+    color: bg-gp-blue

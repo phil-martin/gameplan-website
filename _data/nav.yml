@@ -1,0 +1,30 @@
+main_nav:
+  - url: "/"
+    title: "Home"
+    home: true
+  - url: "/pricing"
+    title: "Pricing"
+  - url: "http://support.gameplan.global/"
+    title: "Support"
+  - url: "https://blog.gameplan.global/"
+    title: "Blog"
+  - url: "/go/sign-up"
+    title: "Sign Up"
+    is_button: true
+  - url: "/go/log-in"
+    title: "Log in"
+    is_button: true
+
+footer_nav:
+  - url: "/"
+    title: "Home"
+  - url: "/pricing"
+    title: "Pricing"
+  - url: "http://support.gameplan.global/"
+    title: "Support"
+  - url: "https://blog.gameplan.global/"
+    title: "Blog"
+  - url: "terms"
+    title: "Terms"
+  - url: "/privacy"
+    title: "Privacy"

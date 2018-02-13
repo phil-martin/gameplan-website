@@ -1,0 +1,57 @@
+{% assign title = include.title | default: "What other are saying" %}
+{% assign testimonials = site.data.testimonials.testimonials  %}
+{% assign testimonials_size = testimonials | size %}
+
+{% if testimonials_size == 3 or testimonials_size == 6 %}
+{% assign col_num = "col-md-12 col-lg-4" %}
+{% elsif testimonials_size == 4 %}
+{% assign col_num = "col-md-12 col-lg-3" %}
+{% else %}
+{% assign col_num = "col-md-12 col-lg-6" %}
+{% endif %}
+
+
+
+
+<section class="bg-primary">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-6 m-auto text-center">
+                <h2 class="h1 text-white">
+                    {{ title }}
+                </h2>
+                <div class="u-h-4 u-w-50 bg-white rounded mt-4 u-mb-40 mx-auto"></div>
+            </div>
+        </div>
+        <!--END row-->
+        <div class="row">
+
+        {% for testimonial in testimonials %}
+            <div class="{{ col_num }} u-mt-60 text-center">
+                <div class="px-5 py-5 rounded bg-white h-100">
+                    <img class="rounded-circle u-w-90 mx-auto mb-4" src="{{ testimonial.image | absolute_url}}" alt="{{ testimonial.name }}">
+                    <h4>
+                        {{ testimonial.name }}
+                    </h4>
+                    <p class="text-muted">
+                        {{ testimonial.position }}
+                    </p>
+                    <p class="u-fs-18">
+                        {{ testimonial.text }}                    
+                    </p>
+                    {% if testimonial.additional_text %}
+                    <p>
+                        <a href="{{ testimonial.additional_url }}">{{ testimonial.additional_text }}</a>
+                    </p>
+                    {% endif %}
+                </div>
+            </div>      
+        {% endfor %}
+
+        </div>
+        <!-- END row-->
+    </div>
+    <!-- END container-->
+</section>
+<!-- END section-->
