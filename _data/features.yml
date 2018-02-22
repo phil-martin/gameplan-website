@@ -1,6 +1,6 @@
 features:
   - title: Project Planning
-    text: GamePlan gives you a Whiteboard where you plan your project simply by drawing the project workflow. It’s a natural and intuitive way to plan. Visual planning eliminates mistakes. And everyone understands the project plan.
+    text: GamePlan gives you a Whiteboard where you plan your project simply by drawing the project workflow. It’s a natural and intuitive way to plan. Visual planning eliminates mistakes, and everyone understands the project plan.
     image: /assets/images/planning.png
     image_alt: Planning 
   - title: Project Scheduling
