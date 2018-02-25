@@ -7,11 +7,11 @@ reasons:
     text: You are back in the driver's seat. You know that you just have to follow your plan and you will deliver your project successfully.
     icon: calendar
     color: bg-gp-yellow
-  - title: Your clients will love you
+  - title: Clients will love you
     text: GamePlan gives you many ways to communicate with your clients.  They will love the visual information because they will understand it.
     icon: copy
     color: bg-gp-green 
-  - title: Become better at what you do
-    text: You will have a permanent record of your plan and your actuals, which shows you what went well and where you can improve.
+  - title: Become more effective
+    text: You will have a permanent record of your plan and your actuals.  This shows you what went well and where you can improve.
     icon: tasks
     color: bg-gp-blue
