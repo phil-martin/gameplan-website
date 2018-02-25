@@ -1,17 +1,17 @@
 reasons:
-  - title: Communicate
-    text: Communicate and collaborate effectively with plan visualization.
+  - title: Peace of mind
+    text: No more sleepless nights wondering if you can deliver your project on time. Just check your project status, which is always up to date.
     icon: comment
     color: bg-gp-blue
-  - title: Make decisions
-    text: Check project status from anywhere at anytime, and make informed decisions.
+  - title: Puts you in control
+    text: You are back in the driver's seat. You know that you just have to follow your plan and you will deliver your project successfully.
     icon: calendar
     color: bg-gp-yellow
-  - title: Report timelines
-    text: Report realistic timelines and take action early to avoid project delays.
+  - title: Your clients will love you
+    text: GamePlan gives you many ways to communicate with your clients.  They will love the visual information because they will understand it.
     icon: copy
     color: bg-gp-green 
-  - title: Complete your project
-    text: Plan your projects, track progress, and complete your projects on time.
+  - title: Become better at what you do
+    text: You will have a permanent record of your plan and your actuals, which shows you what went well and where you can improve.
     icon: tasks
     color: bg-gp-blue
