@@ -4,7 +4,7 @@ features:
     image: /assets/images/planning.png
     image_alt: Planning 
   - title: Project Scheduling
-    text: As you visually plan your project, GamePlan automatically creates the project schedule. Team availability is known, so the schedule is achievable. You now have deliverable dates that can be communicated with confidence.
+    text: As you visually plan your project, GamePlan automatically creates the project schedule. GamePlan shows you exactly what is truly achievable. This gives you deliverable dates that you can confidently share.
     image: /assets/images/scheduling.png
     image_alt: Scheduling 
   - title: Project Tracking
