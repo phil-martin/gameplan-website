@@ -8,6 +8,6 @@ features:
     image: /assets/images/scheduling.png
     image_alt: Scheduling 
   - title: Project Tracking
-    text: As you carry out your project, when there’s a delay GamePlan shows you exactly how the delay affects all project deliverables. GamePlan then helps you find the best way to bring the project back on schedule.
+    text: There are always unforeseen delays in projects.  When there's a delay, GamePlan shows you exactly how it affects all project deliverables. GamePlan then helps you find the best way to bring the project back on schedule.
     image: /assets/images/tracking.png
     image_alt: Tracking
