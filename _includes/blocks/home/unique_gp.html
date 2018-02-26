@@ -5,27 +5,25 @@ You plan your project by drawing your project workflow on the GamePlan Whiteboar
 As you plan, the project schedule automatically updates and is displayed in a Gantt chart.
 Only GamePlan delivers true resource-leveled project scheduling through a visual Whiteboard user experience.
 " %}
-{% assign image = include.image | default: "/assets/images/gp_whiteboard_sbook.png" %}
+{% assign image = include.image | default: "/assets/images/GamePlan Project Scheduling.png" %}
 {% assign image_alt = include.image_alt | default: "GamePlan visual" %}
 
 
-  <section class="pb-0">
+<section class="pb-0">
     <div class="container">
-      <div class="row text-center">
-          <div class="col-lg-8 mx-auto">
-              <h2 class="h1">
-                  {{ title }}
-              </h2>
-              <div class="u-h-4 u-w-50 bg-primary rounded mt-4 u-mb-70 mx-auto"></div>
-              <p class="u-fs-22"> 
-                {{ text }}
-              </p>
-          </div>
-           <div class="col-12 text-center">
-           <img src="{{ image | absolute_url}}" alt="{{ image_alt }}">
-       </div>
-      </div> <!-- END row-->
+        <div class="row text-center">
+            <div class="col-lg-8 mx-auto">
+                <h2 class="h1">
+                    {{ title }}
+                </h2>
+                <div class="u-h-4 u-w-50 bg-primary rounded mt-4 u-mb-70 mx-auto"></div>
+                <p class="u-fs-22">
+                    {{ text }}
+                </p>
+            </div>
+            <div class="col-12 text-center">
+                <img src="{{ image | absolute_url}}" alt="{{ image_alt }}">
+            </div>
+        </div> <!-- END row-->
     </div> <!-- END container-->
-  </section> <!-- END section-->
-  
-  
+</section> <!-- END section-->
