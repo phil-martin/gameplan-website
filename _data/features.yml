@@ -5,7 +5,7 @@ features:
     image_alt: Planning 
   - title: Project Scheduling
     text: As you visually plan, GamePlan automatically creates the project schedule. GamePlan shows you what is truly achievable, given your team's availability.  This lets you communicate project deliverable dates with confidence.
-    image: /assets/images/scheduling.png
+    image: /assets/images/GamePlan_Gantt_Chart.png
     image_alt: Scheduling 
   - title: Project Tracking
     text: There are always unforeseen delays in projects.  When there's a delay, GamePlan shows you exactly how it affects all project deliverables. GamePlan then helps you find the best way to bring the project back on schedule.
