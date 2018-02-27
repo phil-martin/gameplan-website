@@ -15,11 +15,11 @@
             <div class="col-lg-12 pt-3">
                 <ul class="list-inline footer-nav u-ff-dosis text-center mb-0">
                     {% for link in site.data.nav.footer_nav %}
-                    <li class="list-inline-item">
+                    <li class="list-inline-item" style="text-transform:none !important; font-weight:normal !important">
                         <a class="text-uppercase u-fw-600 text-black u-fs-20" href="{{ link.url | absolute_url}}">{{ link.title }}</a>
                     </li>
                       {% if forloop.last != true %}
-                      <li class="list-inline-item">
+                      <li class="list-inline-item" style="text-transform:none !important; font-weight:normal !important">
                         <span class="text-uppercase u-fw-600 text-black u-fs-20">|</span>
                       </li>
                       {% endif %}
