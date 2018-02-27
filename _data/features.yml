@@ -1,6 +1,6 @@
 features:
   - title: Project Planning
-    text: GamePlan gives you a visual planning workspace. Planning is natural and intuitive because you plan by drawing the project workflow. Visual planning eliminates mistakes, and everyone understands the project plan.
+    text: GamePlan gives you a visual planning workspace. Planning is intuitive because you plan by drawing the project workflow. Visual planning eliminates mistakes, and everyone understands the project plan.
     image: /assets/images/GamePlan_Whiteboard_People.png
     image_alt: Planning 
   - title: Project Scheduling
