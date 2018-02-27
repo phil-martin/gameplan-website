@@ -18,7 +18,7 @@
                 <img src="{{ feature.image | absolute_url}}" alt="{{ feature.image_alt }}">
             </div>
             <!-- END col-md-6-->
-            <div class="col-lg-5 ml-auto mt-5 mb-4">
+            <div class="col-lg-6 ml-auto mt-5 mb-4">
                 <h2 class="u-mb-30">
                     {{ feature.title }}
                 </h2>
@@ -40,7 +40,7 @@
                 </p>
             </div>
             <!-- END col-md-6-->
-            <div class="col-lg-5 ml-auto mt-5 mb-4 order-1 order-lg-2">
+            <div class="col-lg-6 ml-auto mt-5 mb-4 order-1 order-lg-2">
                 <img src="{{ feature.image | absolute_url}}" alt="{{ feature.image_alt }}">
             </div>
             <!-- END col-md-6-->
@@ -48,7 +48,7 @@
         <!-- END 	row-->
         {% endif %} 
         {% if forloop.last == false %}
-        <hr class="u-my-60"> 
+        <hr class="u-my-30"> 
         {% endif %}
         {% endfor %}
 
