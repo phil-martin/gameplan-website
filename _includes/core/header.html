@@ -15,7 +15,7 @@
                         {% for link in site.data.nav.main_nav %}
                         {% if link.is_button %}
                         <li class="nav-item">
-                        <a href="{{ link.url | relative_url }}" title="{{ link.title }}" class="nav-link btn btn btn-rounded btn-white ml-3 px-md-3 u-fs-16 mb-3">
+                        <a href="{{ link.url | relative_url }}" title="{{ link.title }}" class="nav-link btn btn btn-rounded btn-white ml-3 px-md-3 u-fs-16 mb-3" style="text-transform:none !important">
                                 {{ link.title }}
                             </a>
                         </li>
