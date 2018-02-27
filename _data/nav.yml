@@ -1,6 +1,6 @@
 main_nav:
   - url: "/"
-    title: "Home"
+    title: "Hom"
     home: true
   - url: "/pricing"
     title: "Pricing"
