@@ -24,7 +24,7 @@ footer_nav:
     title: "Blog"
   - url: "/contact"
     title: "Contact Us"
-  - url: "terms"
+  - url: "/terms"
     title: "Terms"
   - url: "/privacy"
     title: "Privacy"
