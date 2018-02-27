@@ -1,17 +1,17 @@
 reasons:
   - title: Peace of mind
     text: No more sleepless nights wondering if you can deliver your project on time. Just check your project status, which is always up to date.
-    icon: comment
+    icon: coffee
     color: bg-gp-blue
   - title: Puts you in control
     text: You are back in the driver's seat. You know that you just have to follow your plan and you will deliver your project successfully.
-    icon: calendar
+    icon: car
     color: bg-gp-yellow
   - title: Clients will love you
     text: GamePlan lets you visually communicate with your clients.  They will love the visual information because they will understand it.
-    icon: copy
+    icon: heart
     color: bg-gp-green 
   - title: Become better at what you do
     text: You will have a permanent record of your plan and your actuals.  This shows you what went well and where you can improve next time.
-    icon: tasks
+    icon: chart-line
     color: bg-gp-blue
