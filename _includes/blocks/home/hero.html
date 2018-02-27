@@ -1,4 +1,4 @@
-{% assign title = include.title | default: "Visual Project Planning and Scheduling Softwar" %}
+{% assign title = include.title | default: "Visual Project Planning and Scheduling Software" %}
 {% assign subtitle = include.subtitle | default: "Keep any project on time with GamePlan." %}
 {% assign button_1_title = include.button_1_title | default: "Sign Up for a 30 day Free Trial" %}
 {% assign button_1_url = include.button_1_url | default: "/go/sign-up" %}
@@ -22,8 +22,11 @@
                 </a>
             </div> <!-- END col-lg-6-->
             <div class="col-lg-6 text-center">
-                <img src="{{ image | absolute_url}}" alt="{{ image_alt }} "> <a data-fancybox href="{{ video_url }}" class="text-white"></a>
-</div> <!-- END col-lg-6-->
+                <a data-fancybox href="{{ video_url }}" class="text-white">
+                    <img src="{{ image | absolute_url}}" alt="{{ image_alt }} ">
+                </a>
+                
+            </div> <!-- END col-lg-6-->
         </div> <!-- END row-->
     </div> <!-- END container-->
 </section> <!-- END intro-hero-->
