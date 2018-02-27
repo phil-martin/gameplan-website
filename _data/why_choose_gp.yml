@@ -1,10 +1,10 @@
 reasons:
   - title: Peace of mind
-    text: No more sleepless nights wondering if you can deliver your project on time. Just check your project status, which is always up to date.
+    text: No more sleepless nights wondering if you can deliver the project on time. Just check the project status, which is always up to date.
     icon: hotel
     color: bg-gp-blue
   - title: Puts you in control
-    text: You are back in the driver's seat. You know that you just have to follow your plan and you will deliver your project successfully.
+    text: You are back in the driver's seat. You know that you just have to follow the plan and you will deliver the project successfully.
     icon: bus
     color: bg-gp-yellow
   - title: Clients will love you
@@ -12,6 +12,6 @@ reasons:
     icon: smile-o
     color: bg-gp-green 
   - title: Become better at what you do
-    text: You will have a permanent record of your plan and your actuals.  This shows you what went well and where you can improve next time.
+    text: You will have a permanent record of the plan and the actuals.  This shows you what went well and where you can improve next time.
     icon: line-chart
     color: bg-gp-blue
