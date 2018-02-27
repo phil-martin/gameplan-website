@@ -1,4 +1,4 @@
-{% assign title = include.title | default: "What does GamePlan do for yo?" %}
+{% assign title = include.title | default: "What does GamePlan do for you?" %}
 
 <section>
     <div class="container">
@@ -18,7 +18,7 @@
                 <img src="{{ feature.image | absolute_url}}" alt="{{ feature.image_alt }}">
             </div>
             <!-- END col-md-6-->
-            <div class="col-lg-6 ml-auto mt-5 mb-4">
+            <div class="col-lg-5 ml-auto mt-5 mb-4">
                 <h2 class="u-mb-30">
                     {{ feature.title }}
                 </h2>
@@ -31,7 +31,7 @@
         <!-- END 	row-->
         {% else %}
         <div class="row align-items-center">
-            <div class="col-lg-6 my-4 order-2 order-lg-1">
+            <div class="col-lg-5 my-4 order-2 order-lg-1">
                 <h2 class="u-mb-30">
                     {{ feature.title }}
                 </h2>
