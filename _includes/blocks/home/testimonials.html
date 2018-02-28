@@ -1,4 +1,4 @@
-{% assign title = include.title | default: "What others say" %}
+{% assign title = include.title | default: "How GamePlan helps others" %}
 {% assign testimonials = site.data.testimonials.testimonials  %}
 {% assign testimonials_size = testimonials | size %}
 
@@ -28,7 +28,7 @@
         <div class="row">
 
         {% for testimonial in testimonials %}
-            <div class="{{ col_num }} u-mt-60 text-center">
+            <div class="{{ col_num }} u-mt-30 text-center">
                 <div class="px-5 py-5 rounded bg-white h-100">
                     <img class="rounded-circle u-w-90 mx-auto mb-4" src="{{ testimonial.image | absolute_url}}" alt="{{ testimonial.name }}">
                     <h4>
