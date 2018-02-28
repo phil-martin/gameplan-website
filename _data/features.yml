@@ -4,7 +4,7 @@ features:
     image: /assets/images/GamePlan_Whiteboard_People.png
     image_alt: Planning 
   - title: Project Scheduling
-    text: As you visually plan, GamePlan automatically creates the project schedule. GamePlan shows you what is truly achievable, given your team's availability.  This lets you communicate project deliverable dates with confidence.
+    text: As you visually plan, GamePlan automatically creates the project schedule. GamePlan shows you what is achievable, given your team's availability.  This lets you communicate project deliverable dates with confidence.
     image: /assets/images/GamePlan_Gantt_Chart.png
     image_alt: Scheduling 
   - title: Project Tracking
