@@ -1,0 +1,21 @@
+prices:
+  - name: Viewer
+    price: 0
+    price_time:
+    features:
+     - title: View plans
+     - title: Mark tasks complete
+     - title: Submit timesheets
+    button_text: Sign up
+    button_url: /go/sign-up
+  - name: Planner
+    price: 19
+    price_time: /month
+    features:
+     - title: Create plans
+     - title: Edit plans 
+     - title: Share plans
+    button_text: Sign up
+    button_url: /go/sign-up
+      
+      

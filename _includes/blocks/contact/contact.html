@@ -1,0 +1,60 @@
+{% assign title = include.title | default: "Subscription pricing plans" %}
+{% assign additional_text = include.additional_text | default: "Save with an annual subscription. 12 months for the price of 10. Two months free!" %}
+{% assign pricing_tables = site.data.pricing.prices  %}
+{% assign pricing_tables_size = pricing_tables | size %}
+
+{% if pricing_tables_size == 3 %}
+{% assign col_num = "col-md-12 col-lg-4" %}
+{% elsif pricing_tables_size == 4 %}
+{% assign col_num = "col-md-12 col-lg-3" %}
+{% else %}
+{% assign col_num = "col-md-12 col-lg-6" %}
+{% endif %}
+
+
+
+<section class="u-py-20">
+	<div class="text-center">
+		<div class="row">
+			<div class="col-8 mx-auto">
+				<div class="row">
+
+					{% for price in pricing_tables %}
+					<div class="{{col_num}} mt-5">
+						<div class="bg-white box-shadow-v2 rounded u-pb-20">
+							<h4 class="m-0 py-4 u-fs-30">
+								<strong>{{ price.name }}</strong>
+							</h4>
+							<hr class="m-0">
+							<h2 class="u-fs-60 u-fw-600 u-py-35 text-gp-blue">
+								<sup class="u-fs-20">$</sup>{{ price.price }}
+								<small class="u-fs-20">{{ price.price_time }}</small>
+							</h2>
+							<hr class="m-0">
+							<ul class="list-unstyled u-py-40 u-lh-2">
+								{% for feature in price.features %}
+								<li class="u-fs-22">{{ feature.title }}</li>
+								{% endfor %}
+							</ul>
+							<hr class="m-0">
+							<div class="u-py-40">
+								<a href="{{ price.button_url }}" class="btn btn-gp-blue btn-rounded px-4">
+									{{ price.button_text }}
+								</a>
+							</div>
+						</div>
+					</div>
+					{% endfor %}
+
+				</div>
+			</div>
+
+		</div>
+		<!-- END row-->
+		<div class="text-center">
+			<p class="u-fs-24 u-mt-35">{{ additional_text }}</p>
+		</div>
+	</div>
+	<!-- END container-->
+</section>
+<!--END section-->
