@@ -9,7 +9,7 @@ main_nav:
   - url: "https://blog.gameplan.global/"
     title: "Blog"
   - url: "/contact"
-    title: "Contact Us"
+    title: "Contact"
   - url: "/go/sign-up"
     title: "Sign Up"
     is_button: true
@@ -27,7 +27,7 @@ footer_nav:
   - url: "https://blog.gameplan.global/"
     title: "Blog"
   - url: "/contact"
-    title: "Contact Us"
+    title: "Contact"
   - url: "/terms"
     title: "Terms"
   - url: "/privacy"
