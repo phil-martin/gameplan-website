@@ -21,7 +21,7 @@
                         </li>
                         {% else %}
                         <li class="nav-item {% if page.url==link.url %}active{% endif%}">
-                                <a title="{{ link.title }}" style="text-transform:none !important; font-weight:normal !important" href="{{ link.url | relative_url }}" class="u-fs-18 nav-link text-white">{{ link.title }} {% if page.url==link.url %}<span class="sr-only">(current)</span>{% endif%}</a>
+                                <a title="{{ link.title }}" style="text-transform:none !important; font-weight:normal !important" href="{{ link.url | relative_url }}" class="u-fs-16 nav-link text-white">{{ link.title }} {% if page.url==link.url %}<span class="sr-only">(current)</span>{% endif%}</a>
                         </li>
                         {% endif %}
                         {% endfor %}
