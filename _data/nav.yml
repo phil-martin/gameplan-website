@@ -4,8 +4,6 @@ main_nav:
     home: true
   - url: "/pricing"
     title: "Pricing"
-  - url: "/solutions"
-    title: "Solutions"
   - url: "https://blog.gameplan.global/"
     title: "Blog"
   - url: "/contact"
@@ -22,8 +20,6 @@ footer_nav:
     title: "Home"
   - url: "/pricing"
     title: "Pricing"
-  - url: "/solutions"
-    title: "Solutions"
   - url: "https://blog.gameplan.global/"
     title: "Blog"
   - url: "/contact"
