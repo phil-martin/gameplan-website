@@ -19,7 +19,7 @@ The partials (_includes) contain the content related variables as the first elem
 ~~~
 {% assign title = include.title | default: "Start your 30 day free trial today!" %}
 {% assign button_title = include.button_title | default: "Free trial" %}
-{% assign button_url = include.button_url | default: "/sign-up" %}
+{% assign button_url = include.button_url | default: "/go/sign-up" %}
 ~~~
 
 These values are referenced in the layout like this:
