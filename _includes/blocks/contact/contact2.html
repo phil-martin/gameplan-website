@@ -4,16 +4,16 @@
             <form name="contact" method="POST" netlify>
                 <div class="row">
                     <div class="col-md-6 u-mb-30">
-                        <input type="text" placeholder="Your name*">
+                        <input type="text" placeholder="Your name*" name="name">
                     </div>
                     <div class="col-md-6 u-mb-30">
-                        <input type="email" placeholder="Your email*">
+                        <input type="email" placeholder="Your email*" name="email">
                     </div>
                     <div class="col-md-12 u-mb-30">
-                        <input type="tel" placeholder="Subject">
+                        <input type="tel" placeholder="Subject" name="subject">
                     </div>
                     <div class="col-12 u-mb-30">
-                        <textarea rows="5" placeholder="Message"></textarea>
+                        <textarea rows="5" placeholder="Message" name="message"></textarea>
                     </div>
                 </div>
                 <div netlify-recaptcha></div>
