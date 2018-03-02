@@ -1,32 +1,31 @@
 {% assign title = include.title | default: "GamePlan Benefits" %}
-{% assign image_url = include.title | default: "/assets/images/GamePlan Project Scheduling2.png" %}
+{% assign image_url = include.title | default: "/assets/images/GamePlan_Project_Scheduling2_vsmall.png" %}
 {% assign image_alt = include.image_alt | default: "GamePlan visual" %}
 
-  <section class="pb-15 bg-gray-v1">
+<section class="pb-15 bg-gray-v1">
     <div class="container">
-      <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-              <h2 class="h1">
-                {{ title }}
-              </h2>
-              <div class="u-h-4 u-w-50 bg-primary rounded mt-4 u-mb-50 mx-auto"></div>
-          </div>
-          <div class="col-lg-6 mt-5">
-            <ul class="list-unstyled u-fw-600 u-lh-2 u-fs-20">
-              {% for item in site.data.how_gp_helps.items %}
-                <li>
-                  <i class="fa fa-check mr-2 color-primary"></i>
-                 {{ item.text }}
-                </li>
-              {% endfor %}
-            </ul>
-          </div> <!-- END col-lg-6 ml-auto-->
-    
-           <div class="col-lg-6 text-center">
-           <img src="{{ image_url | absolute_url}}" alt="{{ image_alt }}">
-       </div>
-  
-      </div> <!-- END row-->
+        <div class="row">
+            <div class="col-lg-8 mx-auto text-center">
+                <h2 class="h1">
+                    {{ title }}
+                </h2>
+                <div class="u-h-4 u-w-50 bg-primary rounded mt-4 u-mb-50 mx-auto"></div>
+            </div>
+            <div class="col-lg-6 mt-5">
+                <ul class="list-unstyled u-fw-600 u-lh-2 u-fs-20">
+                    {% for item in site.data.how_gp_helps.items %}
+                    <li>
+                        <i class="fa fa-check mr-2 color-primary"></i>
+                        {{ item.text }}
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div> <!-- END col-lg-6 ml-auto-->
+
+            <div class="col-lg-6 text-center">
+                <img src="{{ image_url | absolute_url}}" alt="{{ image_alt }}">
+            </div>
+
+        </div> <!-- END row-->
     </div> <!-- END container-->
-  </section> <!-- END section-->
-  
+</section> <!-- END section-->
