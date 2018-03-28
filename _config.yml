@@ -34,6 +34,10 @@ sass:
         - node_modules
     style: compressed
 
+collections:
+  solutions:
+    output: true
+
 plugins:
   - jekyll-toc
   - jekyll-sitemap
