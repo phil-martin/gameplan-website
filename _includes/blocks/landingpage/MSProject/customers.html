@@ -1,0 +1,27 @@
+{% assign title = include.title | default: "Our customers" %}
+{% assign customers = include.customers %}
+
+
+<section class="u-py-100">
+        <div class="container">
+            <div class="row">
+                    <div class="col-lg-8 mx-auto text-center">
+                            <h2 class="h1">
+                            {{ title }}
+                            </h2>
+                            <div class="u-h-4 u-w-50 bg-primary rounded mt-4 u-mb-70 mx-auto"></div>
+                        </div>
+                <div class="col-12 d-md-flex justify-content-between text-center">
+                    {% for customer in customers %}
+                    <div class="p-3">
+                        <img src="{{ customer.image_url | absolute_url}}" alt="{{ customer.image_alt }}">
+                    </div>
+                    {% endfor %}
+                </div>
+            </div> <!-- END row-->
+        </div> <!-- END container-->
+    </section>
+    
+    
+    
+    

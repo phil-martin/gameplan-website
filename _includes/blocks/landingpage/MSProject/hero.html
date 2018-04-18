@@ -1,0 +1,33 @@
+{% assign header_title = include.header_title | default: "Industry specific landing page" %}
+{% assign header_subtitle = include.header_subtitle | default: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Ut enim ad minim veniam, quis nostrud exercitation ullamco" %}
+{% assign button1_text = include.button1_text | default: "Get Started" %}
+{% assign button1_url = include.button1_url | default: "/#" %}
+{% assign button2_text = include.button2_text | default: "Free trial" %}
+{% assign button2_url = include.button2_url | default: "/#" %}
+
+
+<section class="u-py-100 u-flex-center bg-blue">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 u-mt-80 u-mb-80 text-center">
+        <h1 class="display-4 u-fw-600 text-white u-mb-40">
+          {{ header_title }}
+        </h1>
+        <p class="u-fs-22 text-white u-lh-1_8 u-mb-40">
+          {{ header_subtitle }}
+        </p>
+        <a href="{{ button1_url }}" class="btn btn btn-rounded btn-white  px-md-5">
+          {{ button1_text }}
+        </a>
+        <a href="{{ button2_url }}" class="btn btn btn-rounded btn-white ml-3 px-md-5">
+          {{ button2_text }}
+        </a>
+      </div>
+      <!-- END col-lg-6-->
+    </div>
+    <!-- END row-->
+  </div>
+  <!-- END container-->
+</section>
+<!-- END intro-hero-->
