@@ -2,12 +2,12 @@ features:
   - title: Project Planning
     text: GamePlan gives you a visual planning workspace. Planning is intuitive because you plan by drawing the project workflow. Visual planning eliminates mistakes, and everyone understands the project plan.
     image: /assets/images/GamePlan_Whiteboard_People_vsmall.png
-    image_alt: Planning 
+    image_alt: GamePlan Planning 
   - title: Project Scheduling
     text: As you visually plan, GamePlan automatically creates the project schedule. GamePlan shows you what is truly achievable, given the team's availability.  This lets you communicate deliverable dates with confidence.
     image: /assets/images/GamePlan_Gantt_Chart.png
-    image_alt: Scheduling 
+    image_alt: GamePlan Scheduling 
   - title: Project Tracking
     text: All projects have unforeseen delays.  When there's a delay, GamePlan shows you exactly how it affects all project deliverables. GamePlan then helps you find the best way to bring the project back on schedule.
     image: /assets/images/GamePlan_Milestones.png
-    image_alt: Tracking
+    image_alt: GamePlan Tracking
