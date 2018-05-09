@@ -22,7 +22,7 @@
                 </a>
             </div> <!-- END col-lg-6-->
             <div class="col-lg-6 text-center">
-                <a data-fancybox href="{{ video_url }}" class="text-white">
+                <a data-fancybox href="{{ video_url }}" onclick="notifyAnalyticsEvent('{{video_url}}', 'play_video', '')" class="text-white">
                     <img src="{{ image | absolute_url}}" alt="{{ image_alt }} ">
                 </a>
 

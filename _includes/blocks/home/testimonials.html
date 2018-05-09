@@ -42,7 +42,7 @@
                     </p>
                     {% if testimonial.additional_text %}
                     <p>
-                        <a href="{{ testimonial.additional_url }}">{{ testimonial.additional_text }}</a>
+                        <a href="{{ testimonial.additional_url }}" onclick="trackOutboundLink('{{testimonial.additional_url}}')">{{ testimonial.additional_text }}</a>
                     </p>
                     {% endif %}
                 </div>
