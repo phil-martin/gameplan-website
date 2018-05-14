@@ -7,7 +7,7 @@ type: document
 
 1. YOUR PRIVACY
 
-This Privacy Policy (“Policy”), as amended from time to time, governs visitors’ and users’ (“you” or “your”) access and use of https://www.gameplan.global (the “Website”), https://app.gameplan.global (the “Service”), and the online products or services to which you have access therein, as well any Account (defined below) you use to access the Website (together, the “Service”) that are offered by GamePlan Global Solutions Inc. (“GamePlan”, “we” or “us”). We have adopted this Policy to explain how we collect, store, and use the information collected in connection with your use of the Service.
+This Privacy Policy (“Policy”), as amended from time to time, governs visitors’ and users’ (“you” or “your”) access and use of https://www.gameplan.global (the “Website”), https://{{site.gameplan_app_url}} (the “Service”), and the online products or services to which you have access therein, as well any Account (defined below) you use to access the Website (together, the “Service”) that are offered by GamePlan Global Solutions Inc. (“GamePlan”, “we” or “us”). We have adopted this Policy to explain how we collect, store, and use the information collected in connection with your use of the Service.
 
 BY USING THE SERVICE, YOU AGREE TO THIS PRIVACY POLICY AND GIVE AN EXPLICIT AND INFORMED CONSENT TO THE PROCESSING, USE AND DISCLOSURE OF YOUR PERSONAL INFORMATION IN ACCORDANCE WITH THIS POLICY. IF YOU DO NOT AGREE TO THIS POLICY, PLEASE DO NOT USE OR OTHERWISE ACCESS THE SERVICE.
 

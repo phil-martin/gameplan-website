@@ -58,3 +58,8 @@ typings/
 .env
 
 /.vs
+
+.sass-cache/
+
+_site/
+

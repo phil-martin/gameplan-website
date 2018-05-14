@@ -7,7 +7,7 @@ type: document
 
 E1. AGREEMENT TO BE BOUND
 
-These Terms of Use (these “Terms”), as amended from time to time, govern visitors’ and users’ (“you” or “your”) access and use of https://www.gameplan.global (the “Website”), https://app.gameplan.global (the “Service”), and the online products or services to which you have access therein, as well any Account (defined below) you use to access the Website (together, the “Service”) that are offered by GamePlan Global Solutions Inc. (“GamePlan”, “we” or “us”).
+These Terms of Use (these “Terms”), as amended from time to time, govern visitors’ and users’ (“you” or “your”) access and use of https://www.gameplan.global (the “Website”), https://{{site.gameplan_app_url}} (the “Service”), and the online products or services to which you have access therein, as well any Account (defined below) you use to access the Website (together, the “Service”) that are offered by GamePlan Global Solutions Inc. (“GamePlan”, “we” or “us”).
 
 BY CLICKING “I ACCEPT” OR OTHERWISE ACCESSING THE SERVICE, YOU HEREBY ACCEPT AND AGREE TO BE BOUND BY THESE TERMS. IF YOU DO NOT AGREE TO THESE TERMS, PLEASE DO NOT USE OR OTHERWISE ACCESS THE SERVICE.
 
