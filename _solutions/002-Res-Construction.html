@@ -1,0 +1,111 @@
+---
+title: 'Residential Construction'
+subtitle: 'Let GamePlan make your life easier and your clients happier'
+image: '/assets/images/Residential_Construction_small.jpg'
+image_alt: 'Image alt'
+layout: landingpage
+permalink: /solutions/Res-Construction
+
+#--------------------
+# Customers data
+#--------------------
+customers:
+  - image_url: "assets/images/fake_logo.jpg"
+    image_alt: "logo alt"
+  - image_url: "assets/images/fake_logo.jpg"
+    image_alt: "logo alt"
+  - image_url: "assets/images/fake_logo.jpg"
+    image_alt: "logo alt"
+  - image_url: "assets/images/fake_logo.jpg"
+    image_alt: "logo alt"
+  - image_url: "assets/images/fake_logo.jpg"
+    image_alt: "logo alt"
+  - image_url: "assets/images/fake_logo.jpg"
+    image_alt: "logo alt"
+
+#--------------------
+# FAQ data
+#--------------------
+faqs:
+  - question: "So GamePlan visually shows my project workflow.  Does it do anything else?"
+    answer: "Yes, communication is only one of the benefits of the visual workflow.  It also serves as an intuitive user interface to a powerful scheduling engine.  As you make changes on the Whiteboard, GamePlan updates the project schedule and displays it in GamePlan's Gantt chart."
+  - question: "Can I move things around on the Whiteboard?"
+    answer: "Absolutely!  Everyone has their preferred way of laying out their project plan, so GamePlan gives you complete flexibility.  You move tasks and groups with a simple drag and drop."
+  - question: "Can I show large projects in GamePlan?"
+    answer: "GamePlan's visual interface is most suitable for small to medium sized projects.  This is because there\'s a limit to the number of tasks that can be shown on a single Whiteboard before the tasks get too small to see.  However, large projects typically consist of multiple phases.  You can move each phase to its own Whiteboard, and all links between phases will be preserved."
+  - question: "Do I need special hardware to use GamePlan?"
+    answer: "GamePlan requires a personal computer, either PC or Mac.  Tablets are not yet supported.  Like all graphical applications, you should use an external mouse.  Because GamePlan is a cloud application, an internet connection is required."
+  - question: "Can GamePlan import data from other applications?"
+    answer: "Yes. GamePlan can also import data from Microsoft Excel, and from Primavera P6 through a XER file."
+---
+
+
+{% include /blocks/home/hero.html
+    title="Residential Construction"
+    subtitle="GamePlan gives you peace of mind by showing you exactly when your client can move in and immediately informing you of any changes to that date."
+    button_1_title="Sign Up for a Free Trial"
+    image = "/assets/images/GamePlan_MSProject_Import_with_playbutton_small.png"
+    image_alt = "Microsoft Project to GamePlan"
+    video_url = "https://youtu.be/0IVadRFCCaw"
+%}
+
+{% include /blocks/landingpage/MSProject/video.html %}
+
+{% include /blocks/landingpage/MSProject/features-right.html
+    title="Communication"
+    content='
+<p class="u-fs-22">
+    Let\'s be honest.  It\'s really hard to follow the task dependencies in a Gantt chart.  Now there\'s a solution.
+</p>
+<div class="media mt-4">
+    <div class="media-body">
+        <h2>
+            Make informed decisions
+        </h2>
+        <p class="u-fs-22">
+            People make huge decisions based on Gantt charts.  But Gantt charts don\'t give an overall picture of the project.  Let GamePlan show you what\'s really going on in your project, so you make informed decisions.
+        </p>
+    </div>
+</div>
+    '
+    image_url="assets/images/MSProject_to_GamePlan4.jpg"
+    image_alt="Microsoft Project to GamePlan import"
+%}
+
+
+
+{% include /blocks/landingpage/features-left.html
+    title="Validation"
+    content='
+<p class="u-fs-22">
+    Research shows that 90% of spreadsheets contain errors.  This research has never been done on Gantt charts.  If it were, the results would be the same: almost all Gantt chart schedules contain unknown errors.
+</p>
+<div class="media mt-4">
+    <div class="media-body">
+        <h2>
+            Validate your Microsoft Project schedule
+        </h2>
+        <p class="u-fs-22">
+            We\'re willing to bet you\'ll see errors when you import your Project schedule.  We see errors in every file we import.  That\'s because errors in task dependencies are so hard to detect in a Gantt chart, and so easy to see in GamePlan.
+        </p>
+    </div>
+</div>
+
+    '
+    image_url="assets/images/GamePlan_Primavera_Import.jpg"
+    image_alt="Primavera P6 to GamePlan import"
+%}
+
+{% include /blocks/landingpage/MSProject/faq.html
+    title="Frequently Asked Questions"
+    faqs=page.faqs
+%}
+
+
+
+{% include /blocks/landingpage/MSProject/cta.html
+    title="Start your free trial today!"
+    button_title="Sign Up"
+    button_url="/go/sign-up"
+%}
+
