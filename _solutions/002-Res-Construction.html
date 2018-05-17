@@ -27,16 +27,20 @@ customers:
 # FAQ data
 #--------------------
 faqs:
-  - question: "So GamePlan visually shows my project workflow.  Does it do anything else?"
-    answer: "Yes, communication is only one of the benefits of the visual workflow.  It also serves as an intuitive user interface to a powerful scheduling engine.  As you make changes on the Whiteboard, GamePlan updates the project schedule and displays it in GamePlan's Gantt chart."
-  - question: "Can I move things around on the Whiteboard?"
-    answer: "Absolutely!  Everyone has their preferred way of laying out their project plan, so GamePlan gives you complete flexibility.  You move tasks and groups with a simple drag and drop."
-  - question: "Can I show large projects in GamePlan?"
-    answer: "GamePlan's visual interface is most suitable for small to medium sized projects.  This is because there\'s a limit to the number of tasks that can be shown on a single Whiteboard before the tasks get too small to see.  However, large projects typically consist of multiple phases.  You can move each phase to its own Whiteboard, and all links between phases will be preserved."
+  - question: "Can my subcontractors access the plan online?"
+    answer: "Yes, if you let them.  You control their access permission so, if you want, they can only view the plan and make no changes to it.  This allows them to see when they are scheduled on your projects."
+  - question: "Do my subcontractors need to pay for GamePlan?"
+    answer: "No, GamePlan is free for a Viewer license.  A Viewer license allows them to view shared plans online and also to enter timesheets so that you can track their progress (if you grant them this permission level)."
+  - question: "I am building a few homes.  Can I have more than one build in my plan?"
+    answer: "Absolutely!  You can have as many as you like.  They will exist on different Whiteboards within the same plan.  And GamePlan's scheduling engine ensures that no one is double booked."
+  - question: "Do I have to plan every home build or can I copy an existing plan?"
+    answer: "You can copy and paste an existing project to a new project within the same plan or into an entirely new plan."
+  - question: "Can I get a copy of the residential construction plan you show in the images above?"
+    answer: "Sure.  Just contact us through our website and we'll gladly share it with you.  This will save you time getting started."
   - question: "Do I need special hardware to use GamePlan?"
     answer: "GamePlan requires a personal computer, either PC or Mac.  Tablets are not yet supported.  Like all graphical applications, you should use an external mouse.  Because GamePlan is a cloud application, an internet connection is required."
   - question: "Can GamePlan import data from other applications?"
-    answer: "Yes. GamePlan can also import data from Microsoft Excel, and from Primavera P6 through a XER file."
+    answer: "Yes. GamePlan can import data from Microsoft Excel, Microsoft Project, and from Primavera P6 through a XER file."
 ---
 
 
@@ -93,7 +97,7 @@ faqs:
             Benefits of Scheduling
         </h2>
         <p class="u-fs-22">
-            The schedule tells you when all of your project deliverable dates will be achieved, so you can communicate these dates with confidence.  
+            The schedule tells you when all of your project deliverable dates will be achieved, so you can communicate these dates with confidence.
         </p>
         <p class="u-fs-22">
             The schedule also shows your subcontractors when their tasks will be ready to work on.  This eliminates wasted time and keeps the project on track.
@@ -130,8 +134,13 @@ faqs:
     image_alt="Microsoft Project to GamePlan import"
 %}
 
+{% include /blocks/landingpage/faq.html
+    title="Frequently Asked Questions"
+    faqs=page.faqs
+%}
 
-{% include /blocks/landingpage/MSProject/cta.html
+
+{% include /blocks/landingpage/cta.html
     title="Start your free trial today!"
     button_title="Sign Up"
     button_url="/go/sign-up"
