@@ -1,26 +1,27 @@
 {% assign title = include.title | default: "Sed ut perspiciatis unde" %}
-{% assign content = include.content | default: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua" %}
-{% assign button_text = include.button_text | default: "Learn more" %}
+{% assign button_title = include.button_title | default: "Learn more" %}
 {% assign button_url = include.button_url | default: "/#" %}
 
 
-<section class="bg-gray-v2">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <h2 class="h1">
-                           {{ title }}
-                    </h2>
-                    <div class="u-h-4 u-w-50 bg-primary rounded mt-4 mx-auto u-mb-40"></div>
-                    <p>
-                         {{ content }}
-                    </p>
-                    <a href="{{ button_url }}" class="btn btn-primary btn-rounded u-w-170 mt-5">
-                        {{ button_text }}
-                    </a>
-                </div> <!-- END col-12-->
-            </div> <!-- END row-->
-        </div> <!-- END container-->
-    </section>
-     
-    
+<section class="u-py-50">
+    <div class="overlay bg-blue"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-10 mx-auto">
+                <div class="row">
+                    <div class="col-8 d-md-flex">
+                        <h2 class="h1 text-white mx-md-5">
+                            {{ title }}
+                        </h2>
+                    </div>
+                    <div class="col-4 text-center">
+                        <a href="{{ button_url }}" class="btn btn-white btn-rounded mt-4 mt-md-0 u-fs-26 px-4">
+                            {{ button_title }}
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
