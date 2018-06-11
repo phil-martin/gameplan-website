@@ -1,0 +1,144 @@
+---
+title: 'Software Development'
+subtitle: 'Let GamePlan calculate realistic release dates.  Your team will never be expected to do more than is possible.'
+image: '/assets/images/Software_Development_Cycle.jpg'
+image_alt: 'Image alt'
+layout: landingpage
+permalink: /solutions/Software-Dev
+
+#--------------------
+# Customers data
+#--------------------
+customers:
+  - image_url: "assets/images/fake_logo.jpg"
+    image_alt: "logo alt"
+  - image_url: "assets/images/fake_logo.jpg"
+    image_alt: "logo alt"
+  - image_url: "assets/images/fake_logo.jpg"
+    image_alt: "logo alt"
+  - image_url: "assets/images/fake_logo.jpg"
+    image_alt: "logo alt"
+  - image_url: "assets/images/fake_logo.jpg"
+    image_alt: "logo alt"
+  - image_url: "assets/images/fake_logo.jpg"
+    image_alt: "logo alt"
+
+#--------------------
+# FAQ data
+#--------------------
+faqs:
+  - question: "Can everyone on the development team access the plan online?"
+    answer: "Yes, and you control their access permission.  For example, 'timesheet' permission lets them view the plan, set tasks complete, and enter timesheets."
+  - question: "Do people that I share the plan with need to pay for GamePlan?"
+    answer: "No, Viewer licenses for GamePlan are free.  A Viewer license still allows people to set tasks complete and enter timesheets, so you can track their progress."
+  - question: "Can I get the software development plan shown in the images above?"
+    answer: "Yes.  Please contact us through the website and we'll share it with you."
+  - question: "Do I need special hardware to use GamePlan?"
+    answer: "GamePlan requires a personal computer, either PC or Mac.  Tablets are not yet supported.  Like all graphical applications, you should use an external mouse.  Because GamePlan is a cloud application, an internet connection is required."
+  - question: "Which applications can GamePlan import data from?"
+    answer: "GamePlan can import data from Microsoft Excel, Microsoft Project, and from Primavera P6 through a XER file."
+---
+
+
+{% include /blocks/home/hero.html
+    title="Software Development"
+    subtitle="Sprints work well for short term planning, but you also need an overall plan so you know when you'll achieve your major deliverables."
+    button_1_title="Sign Up for a Free Trial"
+    image = "/assets/images/GamePlan_Project_Scheduling_PC_with_playbutton_small.png"
+    image_alt = "GamePlan Project Planning and Scheduling"
+    video_url = "https://youtu.be/fXm6h8RFEa4"
+%}
+
+{% include /blocks/home/video.html %}
+
+{% include /blocks/landingpage/features-right.html
+    title="Planning"
+    content='
+<p class="u-fs-22">
+    There are many tools for managing short term software dev, but they don\'t give the big picture.  What is the progress towards the strategic goals for the next major release?  GamePlan is the solution.
+</p>
+<p class="u-fs-22">
+    Creating a plan is as easy as importing development tasks and assigning team members.  The plan is visual so everyone understands it.  The critical path and task dependencies are clearly shown.
+</p>
+<p class="u-fs-22">
+    The image to the right is Microsoft Project\'s Software Development Plan in GamePlan.  It shows all aspects of commercial software development.  Start with this plan and adapt it to your own processes.  Then follow this plan to achieve your release goals on time.
+</p>
+
+
+    '
+    image_url="assets/images/GamePlan_Software_Dev_Whiteboard_small3.jpg"
+    image_alt="GamePlan Software Development Template"
+%}
+
+
+
+{% include /blocks/landingpage/features-left.html
+    title="Scheduling"
+    content='
+<p class="u-fs-22">
+    GamePlan creates a resource-leveled project schedule from the project plan.  A resource-leveled schedule is an achievable schedule because people are not double-booked.
+</p>
+<p class="u-fs-22">
+    When any change is made to the plan, the schedule is automatically updated.
+</p>
+
+<div class="media mt-4">
+    <div class="media-body">
+        <h2>
+            Benefits of Scheduling
+        </h2>
+        <p class="u-fs-22">
+            The schedule gives you achievable release dates.  Other departments can then work confidently and efficiently around these dates.
+        </p>
+        <p class="u-fs-22">
+            The schedule also shows everyone when they can expect to work on their tasks.  This eliminates wasted time.
+        </p>
+    </div>
+</div>
+
+    '
+    image_url="assets/images/GamePlan_Software_Development_Gantt_Chart2.jpg"
+    image_alt="GamePlan Software Development Gantt Chart"
+%}
+
+{% include /blocks/landingpage/features-right.html
+    title="Tracking"
+    content='
+<p class="u-fs-22">
+    A challenge in software development is estimating how long development tasks will take.  This makes tracking very important.
+    You track your project by entering when people actually worked on tasks.
+</p>
+<div class="media mt-4">
+    <div class="media-body">
+        <h2>
+            Benefits of Tracking
+        </h2>
+        <p class="u-fs-22">
+            Tracking keeps your schedule up to date, so that everyone can rely on it.  When a task takes longer than expected, the downstream schedule updates.
+        </p>
+        <p class="u-fs-22">
+            Tracking the project also shows the project status. How far through the project are you?  When will it finish?  This information is always known.
+        </p>
+        <p class="u-fs-22">
+            Tracking also gives you a permanent record of plan versus actuals.  Analysing this data in a project post-mortem is a valuable learning experience that makes planners better at planning.
+        </p>
+    </div>
+</div>
+    '
+    image_url="assets/images/GamePlan_Software_Development_People_Report.jpg"
+    image_alt="GamePlan People Report"
+%}
+
+{% include /blocks/landingpage/faq.html
+    title="Frequently Asked Questions"
+    faqs=page.faqs
+%}
+
+
+
+{% include /blocks/landingpage/cta.html
+    title="Start your free trial today!"
+    button_title="Sign Up"
+    button_url="/go/sign-up"
+%}
+
