@@ -8,6 +8,11 @@ Only GamePlan delivers true resource-leveled project scheduling through a visual
 {% assign image = include.image | default: "/assets/images/GamePlan_Project_Scheduling_small.png" %}
 {% assign image_alt = include.image_alt | default: "GamePlan visual" %}
 
+{% assign text2 = include.title | default: "
+
+Beware that not all Gantt chart software delivers a practical project schedule.  It is critical that the Gantt chart shows a resource-leveled project schedule.  This means that no one is double-booked and the schedule is achievable.  Otherwise the Gantt chart is just a pretty picture.  It may impress people but it can't be followed and achieved.  
+" %}
+
 
 <section class="pb-0 bg-gray-v1">
     <div class="container">
@@ -24,6 +29,10 @@ Only GamePlan delivers true resource-leveled project scheduling through a visual
             <div class="col-12 text-center u-mb-50 u-mt-50">
                 <img src="{{ image | absolute_url}}" alt="{{ image_alt }}">
             </div>
+            <div class="u-h-4 u-w-50 bg-primary rounded mt-4 u-mb-50 mx-auto"></div>
+            <p class="u-fs-22">
+                {{ text2 }}
+            </p>
         </div> <!-- END row-->
     </div> <!-- END container-->
 </section> <!-- END section-->
