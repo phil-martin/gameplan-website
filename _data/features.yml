@@ -8,6 +8,6 @@ features:
     image: /assets/images/GamePlan-Gantt-chart-540px.jpg
     image_alt: GamePlan Gantt chart  
   - title: Project Tracking
-    text: All projects have unforeseen delays.  When there's a delay, GamePlan shows you exactly how it affects all project deliverables. GamePlan then helps you find the best way to bring the project back on track.  Make a change and the Gantt chart updates automatically.
+    text: Tracking keeps your plan up to date.  GamePlan shows you how any delay affects your project deliverables, and it helps you get the project back on time.  Make a change to your plan and the Gantt chart automatically updates to show the result.
     image: /assets/images/GamePlan_Milestones.png
     image_alt: GamePlan Project Tracking
