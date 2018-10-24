@@ -17,7 +17,7 @@ GamePlan.global site based on Jekyll using Boostrap, SASS and jQuery.
 The layout and the content is separated. 
 The partials (_includes) contain the content related variables as the first elements
 ~~~
-{% assign title = include.title | default: "Start your 30 day free trial today!" %}
+{% assign title = include.title | default: "Start your free trial today!" %}
 {% assign button_title = include.button_title | default: "Free trial" %}
 {% assign button_url = include.button_url | default: "/go/sign-up" %}
 ~~~
