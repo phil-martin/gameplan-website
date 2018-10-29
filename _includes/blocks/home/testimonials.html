@@ -27,7 +27,7 @@
         <!--END row-->
         <div class="row">
 
-        {% for testimonial in testimonials %}
+            {% for testimonial in testimonials %}
             <div class="{{ col_num }} u-mt-30 text-center">
                 <div class="px-5 py-5 rounded bg-white h-100">
                     <img class="rounded-circle u-w-90 mx-auto mb-4" src="{{ testimonial.image | absolute_url}}" alt="{{ testimonial.name }}">
@@ -38,7 +38,7 @@
                         {{ testimonial.position }}
                     </p>
                     <p class="u-fs-18">
-                        {{ testimonial.text }}                    
+                        {{ testimonial.text }}
                     </p>
                     {% if testimonial.additional_text %}
                     <p>
@@ -46,11 +46,12 @@
                     </p>
                     {% endif %}
                 </div>
-            </div>      
-        {% endfor %}
+            </div>
+            {% endfor %}
 
         </div>
         <!-- END row-->
+        <a href='https://www.capterra.com/reviews/168285/GamePlan?utm_source=vendor&utm_medium=badge&utm_campaign=capterra_reviews_badge'>  <img border='0' src='https://assets.capterra.com/badge/5d747696def091db6265130ed9425126.png?v=2117156&p=168285' /></a>
     </div>
     <!-- END container-->
 </section>
