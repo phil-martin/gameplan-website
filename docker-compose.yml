@@ -1,0 +1,8 @@
+jekyll:
+    image: jekyll/jekyll:builder
+    command: jekyll serve --watch --incremental --force-polling
+    ports:
+        - 4000:4000
+    volumes:
+        - .:/srv/jekyll
+        - ./vendor/bundle:/usr/local/bundle
