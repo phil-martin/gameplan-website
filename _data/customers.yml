@@ -5,7 +5,7 @@ customers:
   - image_url: "assets/images/Impossible-Aero-96.png"
     image_alt: "Impossible Aerospace"
     link_url:  "https://impossible.aero/"
-  - image_url: "assets/images/alert_96g.png"
+  - image_url: "assets/images/alert_96.png"
     image_alt: "Alert Innovation"
     link_url:  "https://www.alertinnovation.com/"
   - image_url: "assets/images/southern-launch-96-black.png"
