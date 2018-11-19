@@ -1,6 +1,6 @@
 customers:
-  - image_url: "assets/images/fake_logo.jpg"
-    image_alt: "logo alt"
+  - image_url: "assets/images/gw_txt_4cp_pos.png"
+    image_alt: "George Washington University"
   - image_url: "assets/images/fake_logo.jpg"
     image_alt: "logo alt"
   - image_url: "assets/images/fake_logo.jpg"
