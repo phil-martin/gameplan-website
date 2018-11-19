@@ -13,8 +13,8 @@
             <div class="col-12 d-md-flex justify-content-between text-center">
                 {% for customer in customers %}
                 <div class="p-3">
-                    <img src="{{ customer.image_url | absolute_url}}" alt="{{ customer.image_alt }}">
-                </div>
+                    <a href="{{ customer.link_url }}"><img src="{{ customer.image_url | absolute_url}}" alt="{{ customer.image_alt }}"></a>
+</div>
                 {% endfor %}
             </div>
         </div> <!-- END row-->
