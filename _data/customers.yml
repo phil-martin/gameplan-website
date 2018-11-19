@@ -1,7 +1,7 @@
 customers:
-  - image_url: "assets/images/gw_txt_4cp_pos.png"
+  - image_url: "assets/images/gwu_96.png"
     image_alt: "George Washington University"
-  - image_url: "assets/images/Logo Black.png"
+  - image_url: "assets/images/Impossible-Aero-96.png"
     image_alt: "Impossible Aerospace"
   - image_url: "assets/images/fake_logo.jpg"
     image_alt: "logo alt"
