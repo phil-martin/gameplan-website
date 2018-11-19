@@ -8,7 +8,7 @@ customers:
   - image_url: "assets/images/alert_96g.png"
     image_alt: "Alert Innovation"
     link_url:  "https://www.alertinnovation.com/"
-  - image_url: "assets/images/southern-launch-96.png"
+  - image_url: "assets/images/southern-launch-96-black.png"
     image_alt: "Southern Launch"
     link_url:  "https://southernlaunch.space/"
   - image_url: "assets/images/synergia_logo.png"
