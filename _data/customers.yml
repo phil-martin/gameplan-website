@@ -15,7 +15,3 @@ customers:
   - image_url: "assets/images/cresco-logo2-300x142.png"
     image_alt: "Cresco Data"
     link_url:  "https://www.crescodata.com/"
-  - image_url: "assets/images/ikomed.png"
-    image_alt: "Ikomed"
-    link_url:  "http://www.ikomed.com/"
- 
