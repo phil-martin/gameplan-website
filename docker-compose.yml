@@ -1,5 +1,5 @@
 jekyll:
-    image: jekyll/jekyll:builder
+    image: jekyll/builder:3.8.2
     command: jekyll serve --watch --incremental --force-polling
     ports:
         - 4000:4000
