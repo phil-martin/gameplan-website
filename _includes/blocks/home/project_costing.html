@@ -1,0 +1,37 @@
+{% assign title = include.title | default: "Project Costing" %}
+{% assign text = include.title | default: "
+<p>
+    Costing is an important part of successful project planning.
+    Project costing allows you to prioritise profitable projects, make informed funding decisions, manage cash flow and track financial performance.
+</p>
+<p>
+    GamePlan makes project costing easy.
+    Simply enter fixed and variable costs for people and equipment, and project costs are automatically calculated.
+    Fixed and variable costs can also be entered on projects and tasks for higher level costing studies.
+</p>
+<p>
+    GamePlan calculates the overall project cost and produces a daily cost schedule.  The cost schedule shows you when costs will be incurred, which helps you manage project cash flow.
+</p>
+" %}
+{% assign image = include.image | default: "/assets/images/GamePlan-cost-summary3.png" %}
+{% assign image_alt = include.image_alt | default: "GamePlan visual" %}
+
+
+<section class="pb-30">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto text-center">
+                <h2 class="h1">
+                    {{ title }}
+                </h2>
+                <div class="u-h-4 u-w-50 bg-primary rounded mt-4 u-mb-50 mx-auto"></div>
+            </div>
+            <div class="col-lg-6 text-center">
+                <img src="{{ image | absolute_url}}" alt="{{ image_alt }}">
+            </div>
+            <div class="col-lg-6 u-fs-22">
+                {{ text }}
+            </div>
+        </div> <!-- END row-->
+    </div> <!-- END container-->
+</section> <!-- END section-->
