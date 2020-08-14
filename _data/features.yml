@@ -6,6 +6,10 @@ features:
   - title: Project Scheduling
     text: As you visually plan, GamePlan automatically creates a Gantt chart that shows the resource-leveled project schedule. GamePlan shows what is  achievable, given your team's availability.  This lets you communicate deliverable dates with confidence.
     image: /assets/images/GamePlan-Gantt-chart-540px.jpg
+    image_alt: GamePlan Gantt chart
+  - title: Project Costing
+    text: GamePlan shows exactly how much your project will cost.  GamePlan also creates a cost schedule that shows you when your expenses will be incurred.  When there are changes to your project, GamePlan shows how your project cost is affected.
+    image: assets/images/GamePlan-cost-summary5.png
     image_alt: GamePlan Gantt chart  
   - title: Project Tracking
     text: Tracking keeps your Gantt chart up to date.  GamePlan shows you how any delay affects your project deliverables, and it helps you bring the project back on time.  Make any change to your plan and the Gantt chart automatically updates to show the result.
